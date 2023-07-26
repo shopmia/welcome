@@ -50,3 +50,28 @@ p {
 .social-links a:hover {
     color: #d4a546;
 }
+
+/* Rules for screens smaller than 600px wide */
+@media screen and (max-width: 600px) {
+    .container {
+      width: 90vw; /* Increase width of the container */
+      padding: 10px; /* Decrease padding */
+    }
+  
+    .profile-image {
+      width: 150px; /* Decrease image size */
+      height: 150px; /* Keep image aspect ratio */
+    }
+  
+    h1 {
+      font-size: 2.5em; /* Decrease text size */
+    }
+  
+    p {
+      font-size: 1.5em; /* Decrease text size */
+    }
+  
+    #map {
+      height: 300px; /* Decrease map height */
+    }
+  }
