@@ -52,7 +52,7 @@ p {
 }
 
 /* Rules for screens smaller than 600px wide */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1170px) {
     .container {
       height: 9050vw;
       width: 90vw; /* Increase width of the container */
