@@ -10,8 +10,8 @@ body {
 }
 
 .container {
-    width: 90vw; /* 80% of the viewport's width */
-    max-width: 1060px; /* You can adjust this value to your liking */
+    width: 80vw; /* 80% of the viewport's width */
+    max-width: 900px; /* You can adjust this value to your liking */
     height: auto;
     max-height: 80vh; /* 80% of the viewport's height */
     text-align: center;
@@ -23,32 +23,33 @@ body {
 }
 
 .profile-image {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 5em;
     color: #333;
 }
 
 p {
-    font-size: 1.5em;
+    font-size: 2em;
     color: #666;
 }
 
 .social-links {
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .social-links a {
     margin: 0 10px;
     text-decoration: none;
     color: #333;
+    font-size: 2em;
 }
 
 .social-links a:hover {
-    color: #d4a546;
+    color: #D5BB6E;
 }
 
