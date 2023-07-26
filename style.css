@@ -29,7 +29,7 @@ body {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 3em;
     color: #333;
 }
 
@@ -38,7 +38,7 @@ p {
 }
 
 .social-links {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .social-links a {
@@ -54,6 +54,7 @@ p {
 /* Rules for screens smaller than 600px wide */
 @media screen and (max-width: 600px) {
     .container {
+      height: 9050vw;
       width: 90vw; /* Increase width of the container */
       padding: 10px; /* Decrease padding */
     }
