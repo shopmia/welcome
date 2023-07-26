@@ -10,10 +10,10 @@ body {
 }
 
 .container {
-    width: 80vw; /* 80% of the viewport's width */
-    max-width: 600px; /* You can adjust this value to your liking */
+    width: 90vw; /* 80% of the viewport's width */
+    max-width: 1060px; /* You can adjust this value to your liking */
     height: auto;
-    max-height: 80vh; /* 80% of the viewport's height */
+    max-height: 90vh; /* 80% of the viewport's height */
     text-align: center;
     padding: 20px;
     background-color: #ffffff;
@@ -29,16 +29,17 @@ body {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 4em;
     color: #333;
 }
 
 p {
+    font-size: 1.5em;
     color: #666;
 }
 
 .social-links {
-    margin-top: 50px;
+    margin-top: 5px;
 }
 
 .social-links a {
@@ -51,28 +52,3 @@ p {
     color: #d4a546;
 }
 
-/* Rules for screens smaller than 600px wide */
-@media screen and (max-width: 1170px) {
-    .container {
-      height: 9050vw;
-      width: 90vw; /* Increase width of the container */
-      padding: 10px; /* Decrease padding */
-    }
-  
-    .profile-image {
-      width: 150px; /* Decrease image size */
-      height: 150px; /* Keep image aspect ratio */
-    }
-  
-    h1 {
-      font-size: 2.5em; /* Decrease text size */
-    }
-  
-    p {
-      font-size: 1.5em; /* Decrease text size */
-    }
-  
-    #map {
-      height: 300px; /* Decrease map height */
-    }
-  }
