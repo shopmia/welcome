@@ -13,7 +13,7 @@ body {
     width: 90vw; /* 80% of the viewport's width */
     max-width: 1060px; /* You can adjust this value to your liking */
     height: auto;
-    max-height: 90vh; /* 80% of the viewport's height */
+    max-height: 80vh; /* 80% of the viewport's height */
     text-align: center;
     padding: 20px;
     background-color: #ffffff;
